@@ -1,7 +1,14 @@
-# Pact Testing Demo
-Currently using this repo as a sandbox to explore [Pact for Python](https://github.com/pact-foundation/pact-python). Goal is to figure out if it is suitable & beneficial to integrate this type of testing into our CI/CD pipeline.
+# Pact Python Demo
+Used this repo as a sandbox to explore [Pact for Python](https://github.com/pact-foundation/pact-python). Goal was to figure out if it was suitable & beneficial to integrate this type of testing into my team's CI/CD pipeline. Now it serves as an introductory demo.
 
-### Infograph explaining contract testing:
+### What is contract testing?
+"***Contract testing** is a technique for testing an integration point by checking each application in isolation to ensure the messages it sends or receives conform to a shared understanding that is documented in a "contract".*
+
+For applications that communicate via HTTP, these "messages" would be the HTTP request and response, and for an application that used queues, this would be the message that goes on the queue.
+
+In practice, a common way of implementing contract tests (and the way Pact does it) is to check that all the calls to your test doubles [return the same results](https://martinfowler.com/bliki/ContractTest.html) as a call to the real application would." - Quoted from [Pact's official website](https://docs.pact.io/#what-is-contract-testing).
+
+### Infograph on contract testing:
 <img src="images/pact-infographic.png" width="1000" />
 
 # Information
