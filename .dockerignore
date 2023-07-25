@@ -1,0 +1,11 @@
+.git*
+.DS_Store
+Pipfile*
+Makefile
+README.MD
+requirements-dev.txt
+
+__pycache__/
+.pytest_cache/
+tests/
+images/

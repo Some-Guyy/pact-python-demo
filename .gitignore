@@ -1,0 +1,11 @@
+# Python Cache
+__pycache__/
+.pytest_cache/
+
+# Log Files
+log/
+
+.env
+.DS_Store
+pacts/
+Pipfile*
